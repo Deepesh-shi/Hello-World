@@ -1,29 +1,7 @@
-package javaprograms;
-
-public class Addition_Subtraction_Global 
-{
- int a,b,c;
-	public void addition()
-	{
-		a=80;
-		b=60;
-		c=a+b;
-		System.out.println(c);
-	}
-	
-	public void sutraction ()
-	{
-		a=80;
-		b=60;
-		c=a-b;
-		System.out.println(c);	
-	}
-		
-	public static void main(String[] args) 
-	{
-		Addition_Subtraction_Global obj	= new Addition_Subtraction_Global();
-		obj.addition();
-		obj.sutraction();
-	}
-	}
-	
+name: hello- World
+on: push
+jobs:
+my-job:
+steps:
+name:my-step
+run: echo "Hellow World"
